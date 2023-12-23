@@ -31,6 +31,7 @@ int main() {
 
  	GoNext1( now1 ) ;
  	printf( "%s ", now1->name ) ;
+	printf( "%s\n", ( *now2 )->name ) ;
 
  	return 0 ;
 }//end function
